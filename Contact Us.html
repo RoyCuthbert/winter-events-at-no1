@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter events @ NO1</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="Header">
+        <img src="/images/LOGO.jpg">
+        <nav>
+           <a href="index.html">Home</a>
+           <a href="about_us.html">About Us</a>
+           <a href="Halloween.html">Halloween</a>
+           <a href="Christmas.html">Christmas</a>
+           <a href="Donation.html">Donations</a>
+           <a href="Contact Us.html">Contact us</a>
+        </nav>  
+    </header>
+    <div class ="Contact-us">
+    <h1>Contact Us</h1>
+    <h2>How to find us</h2>
+    <p>1 Barra close,<br> Oakley,<br>Basingstoke,<br>RG23 7ND</p>
+    <img src="/images/Map of local area.png" alt="Local map of area">
+    </div>
+    <div id="contact-form">
+        <p>Please ask us a question below</p>
+              <hr>
+      <form>
+        <h1>Create a burger!</h1>
+				<section class="protein">
+          <label for="patty">What type of protein would you like?</label>
+    			<input type="text" name="patty" id="patty" value="beef">
+        </section>
+        <hr>
+
+        <section class="patties">
+          <label for="amount">How many patties would you like?</label>
+	        <!--Add your code below-->
+					<input id="amount" type="number" step="1" name="amount">
+          
+        </section>
+      </form>
+    </section>
+        <section class="overlay">
+			<h1>Sign Up</h1>
+      <p>Create an account:</p>
+      <form action="submission.html" method="GET">
+        <label for="username">Username:</label>
+        <br>
+				<!--Add the pattern attribute to the input below-->
+				<input id="username" name="username" type="text" required minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+">
+        <br>
+        <label for="pw">Password:</label>
+        <br>
+				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    </div>
+    <footer>
+        <p>&#169 Winter events @ No1</p>   
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+main{
+    background-image:linear-gradient(to right, rgb(195, 249, 255) , white , rgb(195, 249, 255) ) ;
+}
+
+main h1{
+    color:rgb(51, 47, 44);
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight:800px;
+    text-decoration: wavy;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+main p{
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+}
